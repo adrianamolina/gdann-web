@@ -8,4 +8,24 @@ html {
 
 body {
   margin-top: 10%;
+  background: rgba(255, 255, 255, 0.3);
+  min-height: 80%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+  background: rgba(53, 187, 228, 0.9);
+  border: none;
+}
+.navbar-default .navbar-nav>li>a {
+  color: black;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.footer {
+  background-color: rgb(0, 52, 178);
+}
+.text-footer {
+  color: white;
 }
