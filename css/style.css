@@ -8,9 +8,16 @@ html {
 
 body {
   margin-top: 10%;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.4);
   min-height: 80%;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+  position: absolute;
+  width: 35%;
+  margin-left: -50px;
+  z-index: 10;
 }
 
 .navbar {
@@ -22,10 +29,15 @@ body {
   font-weight: 700;
   font-size: 1.8em;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: rgb(0, 52, 178);
+}
 
 .footer {
   background-color: rgb(0, 52, 178);
 }
-.text-footer {
+.text-muted {
   color: white;
+  font-size: 1.3em;
 }
