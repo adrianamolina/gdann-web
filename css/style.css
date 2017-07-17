@@ -10,8 +10,15 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
   background: rgba(255, 255, 255, 0.4);
-  min-height: 80%;
+  min-height: 30%;
+  overflow: auto;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.container {
+  min-height: 80%;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .logo {
