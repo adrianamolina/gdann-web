@@ -26,7 +26,7 @@ body {
 
 .logo {
   position: absolute;
-  width: 30%;
+  width: 25%;
   margin-left: -4%;
   margin-top: -6%;
   z-index: 10;
@@ -69,5 +69,5 @@ body {
 }
 
 .spotify {
-  margin-top: 20%;
+  margin-top: 10%;
 }
