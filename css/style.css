@@ -7,8 +7,10 @@ html {
 }
 
 body {
+  width: 80%;
   height: 90%;
   margin-top: 5%;
+  margin-left: 10%;
   background: rgba(255, 255, 255, 0.4);
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -26,9 +28,9 @@ body {
 
 .logo {
   position: absolute;
-  width: 28%;
-  margin-left: -4%;
-  margin-top: -6%;
+  width: 35%;
+  margin-left: -9%;
+  margin-top: -8%;
   z-index: 10;
 }
 
@@ -39,7 +41,10 @@ body {
 .navbar-default .navbar-nav>li>a {
   color: black;
   font-weight: 700;
-  font-size: 1.8em;
+  font-size: 1.6em;
+}
+.navbar-left {
+  padding-left: 21%;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: white;
@@ -66,6 +71,7 @@ body {
 .contacto {
   font-size: 1.5em;
   text-align: right;
+  padding-right: 13%;
 }
 
 .spotify {
