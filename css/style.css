@@ -34,6 +34,12 @@ body {
   z-index: 10;
 }
 
+.bg-image{
+  width: 90%;
+  margin-top: 0;
+  overflow: hidden;
+}
+
 .navbar {
   background: rgba(53, 187, 228, 0.9);
   border: none;
@@ -71,7 +77,7 @@ body {
 .contacto {
   font-size: 1.5em;
   text-align: right;
-  padding-right: 13%;
+  padding-right: 13ccccx%;
 }
 
 .spotify {
